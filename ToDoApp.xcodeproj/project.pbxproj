@@ -16,6 +16,7 @@
 		37628B9C24CDF69C00687DDD /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37628B9B24CDF69C00687DDD /* ToDoCell.swift */; };
 		378E821224CDFD3200D158EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821124CDFD3200D158EF /* ToDo.swift */; };
 		378E821424CDFDB600D158EF /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821324CDFDB600D158EF /* ApiError.swift */; };
+		378E821724CDFE3500D158EF /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821624CDFE3500D158EF /* NetworkServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		37628B9B24CDF69C00687DDD /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 		378E821124CDFD3200D158EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		378E821324CDFDB600D158EF /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		378E821624CDFE3500D158EF /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		37628B8324CCFB1700687DDD /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				378E821524CDFE2500D158EF /* Services */,
 				37628B9A24CDF65F00687DDD /* Controller */,
 				37628B9924CDF65800687DDD /* View */,
 				37628B9824CDF64A00687DDD /* Model */,
@@ -98,6 +101,14 @@
 				37628B8824CCFB1700687DDD /* ToDoVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		378E821524CDFE2500D158EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				378E821624CDFE3500D158EF /* NetworkServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				378E821224CDFD3200D158EF /* ToDo.swift in Sources */,
 				37628B8524CCFB1700687DDD /* AppDelegate.swift in Sources */,
 				37628B8724CCFB1700687DDD /* SceneDelegate.swift in Sources */,
+				378E821724CDFE3500D158EF /* NetworkServices.swift in Sources */,
 				37628B9C24CDF69C00687DDD /* ToDoCell.swift in Sources */,
 				378E821424CDFDB600D158EF /* ApiError.swift in Sources */,
 			);
