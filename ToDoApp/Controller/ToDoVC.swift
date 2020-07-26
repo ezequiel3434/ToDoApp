@@ -24,16 +24,26 @@ class ToDoVC: UIViewController {
         
         getTodos()
         
-        NetworkService.shared.addTodo(todo: Todo(item: "TEST", priority: 2), onSuccess: { (todos) in
-            self.todos = todos.items
-            self.tableView.reloadData()
-        }) { (errorMessage) in
-            
-        }
+       
        
     }
 
     @IBAction func addTodo(_ sender: Any) {
+        
+        guard let todoItem = todoItemTxt.text else {
+            return
+        }
+        
+        let todo = Todo(item: todoItem, priority: prioritySegment.selectedSegmentIndex)
+        NetworkService.shared.addTodo(todo: todo, onSuccess: { (todos) in
+            self.todoItemTxt.text = ""
+                   self.todos = todos.items
+                   self.tableView.reloadData()
+               }) { (errorMessage) in
+                   // show any error to user to post
+                debugPrint(errorMessage)
+               }
+        prioritySegment.selectedSegmentIndex = 0
     }
     
     func getTodos() {
