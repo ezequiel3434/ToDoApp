@@ -14,6 +14,8 @@
 		37628B8E24CCFB1700687DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37628B8D24CCFB1700687DDD /* Assets.xcassets */; };
 		37628B9124CCFB1700687DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37628B8F24CCFB1700687DDD /* LaunchScreen.storyboard */; };
 		37628B9C24CDF69C00687DDD /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37628B9B24CDF69C00687DDD /* ToDoCell.swift */; };
+		378E821224CDFD3200D158EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821124CDFD3200D158EF /* ToDo.swift */; };
+		378E821424CDFDB600D158EF /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821324CDFDB600D158EF /* ApiError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		37628B9024CCFB1700687DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37628B9224CCFB1700687DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37628B9B24CDF69C00687DDD /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		378E821124CDFD3200D158EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		378E821324CDFDB600D158EF /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		37628B9824CDF64A00687DDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				378E821124CDFD3200D158EF /* ToDo.swift */,
+				378E821324CDFDB600D158EF /* ApiError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,9 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37628B8924CCFB1700687DDD /* ToDoVC.swift in Sources */,
+				378E821224CDFD3200D158EF /* ToDo.swift in Sources */,
 				37628B8524CCFB1700687DDD /* AppDelegate.swift in Sources */,
 				37628B8724CCFB1700687DDD /* SceneDelegate.swift in Sources */,
 				37628B9C24CDF69C00687DDD /* ToDoCell.swift in Sources */,
+				378E821424CDFDB600D158EF /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
