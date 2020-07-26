@@ -101,6 +101,7 @@
                     </view>
                     <connections>
                         <outlet property="prioritySegment" destination="wCv-wN-fgV" id="ZHZ-o4-hDM"/>
+                        <outlet property="tableView" destination="DS6-Qu-4q2" id="BEC-vr-iQ1"/>
                         <outlet property="todoItemTxt" destination="Sin-6p-iin" id="F7Y-TS-AxG"/>
                     </connections>
                 </viewController>
