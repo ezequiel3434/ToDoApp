@@ -23,6 +23,13 @@ class ToDoVC: UIViewController {
         tableView.dataSource = self
         
         getTodos()
+        
+        NetworkService.shared.addTodo(todo: Todo(item: "TEST", priority: 2), onSuccess: { (todos) in
+            self.todos = todos.items
+            self.tableView.reloadData()
+        }) { (errorMessage) in
+            
+        }
        
     }
 
