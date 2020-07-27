@@ -17,6 +17,7 @@
 		378E821224CDFD3200D158EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821124CDFD3200D158EF /* ToDo.swift */; };
 		378E821424CDFDB600D158EF /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821324CDFDB600D158EF /* ApiError.swift */; };
 		378E821724CDFE3500D158EF /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E821624CDFE3500D158EF /* NetworkServices.swift */; };
+		378E821924CEE92400D158EF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 378E821824CEE92400D158EF /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		378E821124CDFD3200D158EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		378E821324CDFDB600D158EF /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		378E821624CDFE3500D158EF /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		378E821824CEE92400D158EF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				37628B8324CCFB1700687DDD /* ToDoApp */,
 				37628B8224CCFB1700687DDD /* Products */,
+				378E821824CEE92400D158EF /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378E821924CEE92400D158EF /* images in Resources */,
 				37628B9124CCFB1700687DDD /* LaunchScreen.storyboard in Resources */,
 				37628B8E24CCFB1700687DDD /* Assets.xcassets in Resources */,
 				37628B8C24CCFB1700687DDD /* Main.storyboard in Resources */,
